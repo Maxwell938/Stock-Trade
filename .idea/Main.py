@@ -5,7 +5,6 @@ import KEYS
 from time import sleep
 from datetime import datetime
 import time
-global apithing
 yfinance.pdr_override()
 API_KEY = "PK90FW93OCL2BSYMYQJS"
 API_SECRET = "tYayl4E8FoJ4uscqrKmT7EmCvbPwR0142hxHTHTW"
@@ -20,11 +19,11 @@ Stock = ["XOM","CVX","SLB","COP","FB","GOOGL","ATVI","NFLX","AAPL","MSFT","V","N
 Amount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 Buyprice = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 open = 7
+totalstock = 16
+done = False
 close = 13
 totalmoney = 400000
 stocksleft = 16
-totalstock = 16
-done = False
 while (done == False):
     now = datetime.now()
     if (close > now.hour and open < now.hour):
