@@ -1,5 +1,5 @@
-from yahoo_fin import stock_info as stocks
-import alpaca_trade_api as tradeapi
+from yahoo_fin import stock_info
+import alpaca_trade_api
 import yfinance
 import KEYS
 from time import sleep
@@ -9,10 +9,10 @@ yfinance.pdr_override()
 API_KEY = "PK90FW93OCL2BSYMYQJS"
 API_SECRET = "tYayl4E8FoJ4uscqrKmT7EmCvbPwR0142hxHTHTW"
 BASE_URL = "https://paper-api.alpaca.markets"
-apithing = tradeapi.REST(API_KEY, API_SECRET, BASE_URL)
+apithing = alpaca_trade_api.REST(API_KEY, API_SECRET, BASE_URL)
 def get_price(ticker: str):
     try:
-        return stocks.get_live_price(ticker)
+        return stock_info.get_live_price(ticker)
     except AssertionError:
         return
 Stock = ["XOM","CVX","SLB","COP","FB","GOOGL","ATVI","NFLX","AAPL","MSFT","V","NVDA","BRK.B","JPM","BAC","C"]

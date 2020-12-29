@@ -5,5 +5,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="yfinance" />
+    <orderEntry type="module" module-name="yahoo_fin" />
+    <orderEntry type="module" module-name="requests-html" />
   </component>
 </module>

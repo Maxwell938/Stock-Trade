@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Stock-Trade.iml" filepath="$PROJECT_DIR$/.idea/Stock-Trade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/requests-html/.idea/requests-html.iml" filepath="$PROJECT_DIR$/requests-html/.idea/requests-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yahoo_fin/.idea/yahoo_fin.iml" filepath="$PROJECT_DIR$/yahoo_fin/.idea/yahoo_fin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yfinance/.idea/yfinance.iml" filepath="$PROJECT_DIR$/yfinance/.idea/yfinance.iml" />
     </modules>
   </component>
 </project>
